@@ -1,8 +1,16 @@
 import React from 'react';
 
+// components
+import Header from './components/Header';
+
+// estilização 
+import {Container} from './styles';
+
 function App() {
   return (
-    <h1>LinkedIn</h1>
+    <Container>
+      <Header />
+    </Container>
   );
 }
 
