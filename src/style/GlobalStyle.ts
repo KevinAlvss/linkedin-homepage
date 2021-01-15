@@ -11,7 +11,7 @@ export default createGlobalStyle`
   html, body, #root {
     height: 100%;
     width: 100%;
-    background: var(--color-background);
+    background: #F3F2EF;
   }
 
   *, button, input {
