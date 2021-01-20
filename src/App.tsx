@@ -19,6 +19,15 @@ function App() {
         </Column>
         <Column>
           <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
         </Column>
       </Content>
     </Container>

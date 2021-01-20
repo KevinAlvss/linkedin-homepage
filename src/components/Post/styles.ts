@@ -8,6 +8,10 @@ export const Container = styled.div`
   flex-direction:column;
 
   background-color:var(--color-white);
+
+  box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.2);
+
+  margin-bottom:8px;
 `;
 
 export const Header = styled.div`
@@ -56,10 +60,35 @@ export const  HeaderContent = styled.p`
 `;
 
 export const Content = styled.div`
+  width:100%;
+  height:290px;
 
+  > img{
+    width:100%;
+    height:100%;
+  }
 `;
 
 export const Actions = styled.div`
+  width:100%;
+  height:60px;
 
+  display:flex;
+  align-items:center;
 `;
 
+export const ReactionButton = styled.div`
+  display:flex;
+  align-items:center;
+  margin:0 7px;
+  padding:5px;
+  height: 70%;
+  border-radius:4px;
+  cursor: pointer;
+
+  transition:all .2s ease-in-out;
+
+  &:hover{
+    background-color:#EBEBEB;
+  }
+`;

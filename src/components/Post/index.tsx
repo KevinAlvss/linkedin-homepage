@@ -10,7 +10,16 @@ import { Container,
          PostTime, 
          HeaderContent ,
          Content, 
-         Actions } from './styles';
+         Actions,
+         ReactionButton } from './styles';
+
+
+// imagem
+import imagempost from '../../images/wallpaper2.jpg';
+import comentar from '../../images/comentar.svg';
+import compartilhar from '../../images/compartilhar.svg';
+import enviar from '../../images/enviar.svg';
+import gostei from '../../images/gostei.svg'
 
 const Post: React.FC = () => {
   return (
@@ -27,10 +36,25 @@ const Post: React.FC = () => {
             <HeaderContent>Esse é um clone do LinkedIn</HeaderContent>
           </Header>
           <Content>
-
+            <img src={imagempost} alt="Postagem" />
           </Content>
           <Actions>
-
+              <ReactionButton>
+                <img src={gostei} alt="" />
+                <span>Gostei</span>
+              </ReactionButton>
+              <ReactionButton>
+                <img src={comentar} alt="" />
+                <span>Comentar</span>
+              </ReactionButton>
+              <ReactionButton>
+                <img src={compartilhar} alt="" />
+                <span>Compartilhar</span>
+              </ReactionButton>
+              <ReactionButton>
+                <img src={enviar} alt="" />
+                <span>Enviar</span>
+              </ReactionButton>
           </Actions>
       </Container>
   );
