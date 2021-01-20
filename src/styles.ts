@@ -19,6 +19,6 @@ export const Content = styled.div`
   padding-top:40px;
 `;
 
-export const ColumnOne = styled.div`
+export const Column = styled.div`
 
 `;

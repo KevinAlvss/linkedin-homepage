@@ -3,18 +3,23 @@ import React from 'react';
 // components
 import Header from './components/Header';
 import HashtagCard from './components/HashtagCard';
+import Post from './components/Post';
+
 
 // estilização 
-import {Container, Content, ColumnOne} from './styles';
+import {Container, Content, Column} from './styles';
 
 function App() {
   return (
     <Container>
       <Header />
       <Content>
-        <ColumnOne>
-        <HashtagCard />
-        </ColumnOne>
+        <Column>
+          <HashtagCard />
+        </Column>
+        <Column>
+          <Post />
+        </Column>
       </Content>
     </Container>
   );
