@@ -19,4 +19,8 @@ export const Content = styled.div`
 
 export const Column = styled.div`
   width:fit-content;
+
+  &:nth-child(2){
+    margin:0 20px;
+  }
 `;

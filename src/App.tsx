@@ -4,7 +4,7 @@ import React from 'react';
 import Header from './components/Header';
 import HashtagCard from './components/HashtagCard';
 import Post from './components/Post';
-
+import Cursos from './components/Cursos';
 
 // estilização 
 import {Container, Content, Column} from './styles';
@@ -28,6 +28,9 @@ function App() {
           <Post />
           <Post />
           <Post />
+        </Column>
+        <Column>
+          <Cursos />
         </Column>
       </Content>
     </Container>
